@@ -17,6 +17,7 @@ def pesquisa_contatos(pesquisa):
 def atualiza_telefone(nome_anterior, novo_telefone):
     db[nome_anterior] = novo_telefone
 
+#iniciando o controle de versão
 def atualiza_contato(nome_anterior, novo_nome, novo_telefone):
     db[novo_nome] = novo_telefone
     del db[nome_anterior]
